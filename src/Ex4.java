@@ -16,7 +16,6 @@ public class Ex4 {
         Point point1 = new Point(x,y);
         Point point2 = new Point(x2,y2);
         Vector vector = new Vector(point1, point2);
-        vector.calcVectorCoordinates();
         vector.printVectorCoordinates();
     }
 }
